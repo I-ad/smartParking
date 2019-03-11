@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { CARD_WIDTH, SCREEN_WIDTH } from './RenderListComponent/styles';
+import { CARD_WIDTH, SCREEN_WIDTH } from './components/RenderListComponent/styles';
 
 export default StyleSheet.create({
   container: {
