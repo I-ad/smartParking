@@ -35,6 +35,7 @@ class MapComponent extends React.Component<{}, IState> {
       <RenderListComponent
         id={item.id}
         location={item.location}
+        isAvailable={item.isAvailable}
         distance={item.distance}
         address={item.address}
         spotNumber={item.spotNumber}
@@ -60,7 +61,7 @@ class MapComponent extends React.Component<{}, IState> {
   };
 
   private _onPinPress = (id: string, index: number) => {
-    const offset = index * CARD_WIDTH;
+    const offset = index * (CARD_WIDTH + CARD_SPACE);
     console.log(offset);
     this._scrollRef.scrollToOffset({ offset, animated: true });
     this.setState({ selectedID: id });
@@ -90,6 +91,7 @@ class MapComponent extends React.Component<{}, IState> {
                 <CustomPinComponent
                   cost={item.cost}
                   isSelected={selectedID === item.id}
+                  isAvailable={item.isAvailable}
                 />
               </Marker>
             );

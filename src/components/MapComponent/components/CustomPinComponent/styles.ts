@@ -1,16 +1,16 @@
 import { StyleSheet } from 'react-native';
-import { borderColor, primaryColor } from '../../../../common/styles/commonStyles';
+import { badStatusColor, primaryColor } from '../../../../common/styles/commonStyles';
 
 export default StyleSheet.create({
   container:             {
     alignItems: 'center',
   },
-  contentHolder:         {
+  contentHolder:            {
     padding:         6,
     backgroundColor: primaryColor,
     borderRadius:    2,
   },
-  contentHolderSelected: {
+  contentHolderSelected:    {
     backgroundColor: '#FFF',
     shadowColor:     '#000',
     shadowOffset:    { width: 0, height: 4 },
@@ -18,15 +18,23 @@ export default StyleSheet.create({
     shadowRadius:    5,
     elevation:       1,
   },
-  cost:                  {
+  notAvailable:             {
+    padding:         6,
+    backgroundColor: badStatusColor,
+    borderRadius:    2,
+  },
+  cost:                     {
     color:      '#FFF',
     fontSize:   10,
     fontWeight: '800',
   },
-  costSelected:          {
+  costSelected:             {
     color: primaryColor,
   },
-  pointer:               {
+  notAvailableCostSelected: {
+    color: badStatusColor,
+  },
+  pointer:                  {
     width:             0,
     height:            0,
     backgroundColor:   'transparent',
@@ -40,7 +48,10 @@ export default StyleSheet.create({
     borderBottomColor: 'transparent',
     borderLeftColor:   'transparent',
   },
-  pointerSelected:       {
+  pointerSelected:          {
     borderTopColor: '#FFF',
+  },
+  pointerNotAvailable:   {
+    borderTopColor: badStatusColor,
   },
 });
