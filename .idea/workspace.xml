@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a11738d-9af5-456f-bb2c-6baf13198f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MapComponent/components/CustomPinComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MapComponent/components/CustomPinComponent/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/icons/AvailablityPinIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/icons/AvailablityPinIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/icons/DistanceIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/icons/DistanceIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/icons/PriceTagIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/icons/PriceTagIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/icons/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/RenderListComponent/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/components/RenderListComponent/styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/faceData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/faceData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MapComponent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MapComponent/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MapComponent/styles.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MapComponent/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+            <state relative-caret-position="364">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -222,7 +210,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15041000" />
+    <option name="totallyTimeSpent" value="15302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -242,8 +230,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.4993895" visible="true" weight="0.11425462" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.11425462" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.4993895" visible="true" weight="0.3155604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.50061053" side_tool="true" visible="true" weight="0.3155604" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Quokka" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -391,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MapComponent/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="66" column="61" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
+        <state relative-caret-position="364">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

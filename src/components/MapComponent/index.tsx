@@ -16,7 +16,6 @@ interface IState {
 class MapComponent extends React.Component<{}, IState> {
   private _mapRef: any = null;
   private _scrollRef: any;
-  private sub: any;
 
   constructor(props: {}) {
     super(props);
@@ -63,9 +62,7 @@ class MapComponent extends React.Component<{}, IState> {
   private _onPinPress = (id: string, index: number) => {
     const offset = index * CARD_WIDTH;
     console.log(offset);
-    this.sub = setTimeout(() => {
-      this._scrollRef.scrollToOffset({ offset, animated: true });
-    }, 0);
+    this._scrollRef.scrollToOffset({ offset, animated: true });
     this.setState({ selectedID: id });
   };
 
